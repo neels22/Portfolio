@@ -5,7 +5,14 @@ import {  TbBrandNextjs } from "react-icons/tb";
 import {SiMongodb} from "react-icons/si";
  import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoPython } from "react-icons/bi";
+import { SiMysql } from "react-icons/si";
 
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiLangchain } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
+import { BsGithub } from "react-icons/bs";
+import { TbBrandDjango } from "react-icons/tb";
 
 
 export default function Skills() {
@@ -35,21 +42,26 @@ export default function Skills() {
                     <BiLogoPostgresql className="text-7xl text-sky-700"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4" >
-                    <BiLogoPostgresql className="text-7xl text-cyan-400"/>
+                    <BiLogoPython className="text-7xl"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4" >
-                    <BiLogoPostgresql className="text-7xl text-cyan-400"/>
+                    <SiMysql className="text-7xl text-sky-400"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4" >
-                    <BiLogoPostgresql className="text-7xl text-cyan-400"/>
+                    <RiTailwindCssFill className="text-7xl text-cyan-400"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4" >
-                    <BiLogoPostgresql className="text-7xl text-cyan-400"/>
+                    <SiLangchain className="text-7xl "/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4" >
-                    <BiLogoPostgresql className="text-7xl text-cyan-400"/>
+                    <TbBrandTypescript className="text-7xl text-sky-600 "/>
                 </div>
-
+                <div className="rounded-2xl border-4 border-neutral-800 p-4" >
+                    <BsGithub className="text-7xl text-white "/>
+                </div>
+                <div className="rounded-2xl border-4 border-neutral-800 p-4" >
+                    <TbBrandDjango className="text-7xl text-green-800"/>
+                </div>
             </div>
 
 
