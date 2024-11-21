@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { useState } from "react";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="px-4 py-2 bg-transparent text-white font-bold shadow-lg backdrop-blur-md z-20 mb-5">
@@ -11,7 +11,7 @@ export default function Navbar() {
         {/* Logo or Brand Name */}
         <div className="text-xl">
           <Link href="#home" className="hover:text-blue-400">
-            Hi, I'm 
+            Hi, I'm
           </Link>
         </div>
 
@@ -27,7 +27,7 @@ export default function Navbar() {
 
         {/* Links */}
         <ul
-          className={`flex flex-col lg:flex-row lg:items-center lg:gap-12 lg:static lg:bg-transparent absolute top-full left-0 w-full bg-neutral-800 lg:w-auto lg:py-0 py-4 transition-all duration-300 ${
+          className={`lg:flex lg:items-center lg:gap-12 absolute lg:static top-full left-0 w-full lg:w-auto bg-neutral-800 lg:bg-transparent lg:py-0 py-4 transition-all duration-300 ${
             isOpen ? "block" : "hidden"
           }`}
         >
