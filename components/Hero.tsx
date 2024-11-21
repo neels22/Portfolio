@@ -10,10 +10,10 @@ export default function Hero() {
             <h1 className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl whitespace-nowrap">
               Indraneel Sarode
             </h1>
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
+            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent lg:text-4xl">
               Full stack developer
             </span>
-            <p className="my-2 max-w-xl font-light tracking-tighter text-center">
+            <p className="my-2 max-w-xl font-light tracking-tighter text-center lg:text-left lg:text-2xl">
               & I am a graduate student at San Jose State University, California 
 
             </p>

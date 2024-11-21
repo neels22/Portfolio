@@ -8,9 +8,9 @@ export default function Projects() {
 
       <div>
         {/* first project  */}
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-12 flex flex-wrap lg:justify-center">
           {/* Left Section */}
-          <div className="w-full lg:w-1/4">
+          <div className="w-full lg:w-1/4 mb-8">
             <p className="mb-2 text-sm text-neutral-400">RAG</p>
             <Link href="https://github.com/neels22/gen-ai-projects">
               <Image
@@ -67,9 +67,9 @@ export default function Projects() {
         </div>
 
         {/* second project  */}
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-12 flex flex-wrap lg:justify-center">
           {/* Left Section */}
-          <div className="w-full lg:w-1/4">
+          <div className="w-full lg:w-1/4 mb-8">
             <p className="mb-2 text-sm text-neutral-400">Travelapp-ui</p>
             <Link href="https://travelapp.indraneelsarode.com/">
               <Image
@@ -113,9 +113,9 @@ export default function Projects() {
 
         {/* third project  */}
 
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-12 flex flex-wrap lg:justify-center">
           {/* Left Section */}
-          <div className="w-full lg:w-1/4">
+          <div className="w-full lg:w-1/4 mb-8">
             <p className="mb-2 text-sm text-neutral-400">BubbleGame</p>
             <Link href="https://bubblegame-neeljsproject.netlify.app/">
               <Image
@@ -157,9 +157,9 @@ export default function Projects() {
 
         {/* fourth project */}
 
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-12 flex flex-wrap lg:justify-center">
           {/* Left Section */}
-          <div className="w-full lg:w-1/4">
+          <div className="w-full lg:w-1/4 mb-8">
             <p className="mb-2 text-sm text-neutral-400">NewsExpress</p>
             <Link href="https://newsxpress-neelproject-36ab75.netlify.app/">
               <Image
@@ -204,9 +204,9 @@ export default function Projects() {
         </div>
 
         {/* fifth project  */}
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-12 flex flex-wrap lg:justify-center">
           {/* Left Section */}
-          <div className="w-full lg:w-1/4">
+          <div className="w-full lg:w-1/4 mb-8">
             <p className="mb-2 text-sm text-neutral-400">Landing-page</p>
             <Link href="https://confident-quicker-781805.framer.app/">
               <Image
