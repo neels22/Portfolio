@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <nav className="px-4 py-2 bg-transparent text-white font-bold shadow-lg backdrop-blur-md z-20 mb-5">
@@ -11,7 +11,7 @@ export default function Navbar() {
         {/* Logo or Brand Name */}
         <div className="text-xl">
           <Link href="#home" className="hover:text-blue-400">
-            MyPortfolio
+            Hi, I'm 
           </Link>
         </div>
 

@@ -11,7 +11,7 @@ export default function Contact() {
 
             <div className="text-center tracking-tighter">
                 <p className="my-4">
-                    San Jose, CA 
+                    Pune, India
                 </p>
                 <p className="my-4">
                    +91 7745011040

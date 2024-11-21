@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
       <div className="border-b border-neutral-900 pb-4">
-        <h2 className="my-20 text-center text-4xl">Experience/internships</h2>
+        <h2 className="my-20 text-center text-4xl">Experience/Internships</h2>
   
         <div>
           <div className="mb-8 flex flex-wrap lg:justify-center">
